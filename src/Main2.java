@@ -37,8 +37,10 @@ public class Main2
             
             terminar = (char)System.in.read();
 
-        }
-    	System.out.println("Enorabuena!!"); 
+        } 
+
+
+            System.out.print("\nahora se mostraran en pantalla los archivos añadidos en un arraylist\n");
 
 			BufferedReader br = new BufferedReader(new FileReader("ListadoPartidos.txt"));
 
