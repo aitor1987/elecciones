@@ -24,13 +24,13 @@ public class Main2
             FileReader fr = new FileReader(file); 
             
 
-            char [] a = new char[50];
+            char [] a = new char[300];
             fr.read(a);
             System.out.println(a);
 
             fr.close();
     
-            System.out.println();
+
     
             System.out.print("para salir escriba s");
             System.out.println();

@@ -6,9 +6,9 @@ public class Partido {
 
 	int añocreacion;
 
-	String politica, lider;
+	String politica, lider, nombre;
 
-	public Partido(int añocreacion, String politica, String lider){
+	public Partido(int añocreacion, String politica, String lider, String nombre){
 
 	this.añocreacion=añocreacion;
 	this.politica=politica;
@@ -43,6 +43,16 @@ public class Partido {
 	public String getLider()
 	{
 	return lider;
+	}
+
+	public void setNombre(String nombre){
+
+	this.nombre = nombre;
+	}
+
+	public String getNombre()
+	{
+	return nombre;
 	}
 }
 
